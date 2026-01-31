@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.BasicInfo {
+  text-align: center;
+  margin-top: 50px;
+}
+.BasicInfo h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #e27a37;
+}
+.BasicInfo h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #30598A;
+}
+.BasicInfo h3 {
+  font-size: 18px;
+  color: #f1b873;
+}
+.BasicInfo p {
+  font-size: 16px;
+  color: #72bfed;
+  max-width: 600px;
+  margin: 0 auto;
 }
